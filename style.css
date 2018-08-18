@@ -1,0 +1,104 @@
+body {
+	box-sizing: border-box !important;
+	padding: 0;
+	margin: 0;
+	letter-spacing: 2px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.heading_section{
+	background: url(https://wallpapercave.com/wp/VtwBflx.jpg)center center fixed no-repeat;
+	height: 250px;
+	padding-top: 30px;
+}
+
+.page_heading{
+	letter-spacing: 10px;
+	font-weight: 900;
+	color: #B76E79;
+}
+
+.page_heading>span{
+	color: #341433;
+}
+.slogan_line{
+	text-align: center;
+	font-weight: 900;
+	letter-spacing: 4px;
+	color: aliceblue;
+}
+
+.slogan_line>.bullet{
+	margin: 0;
+	padding: 0;
+	color: #0093ff;
+}
+
+.nav-item,
+.nav-link{
+	border-radius: 0px !important;
+	color: #B76E79;
+	text-align: center;
+	transition: all .3s;
+	font-weight: 700;
+	letter-spacing: 3px;
+}
+
+.nav-link:hover{
+	color: #341433;
+	background: #FF7349;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #000000 !important;
+	background: radial-gradient(#00ff76, #007c39) !important;
+}
+
+.tab-pane{
+	padding-top: 20px;
+}
+
+/*Contact Section Styling*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
